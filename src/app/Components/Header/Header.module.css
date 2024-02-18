@@ -1,0 +1,27 @@
+
+.header {
+  background-color: #d1cfcf;
+  padding: 0px 30px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.navList {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
+
+}
+.navItem {
+    padding: 0 40px;
+}
+
+.link {
+  color: #333;
+  text-decoration: none;
+}

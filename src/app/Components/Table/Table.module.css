@@ -1,0 +1,27 @@
+.table {
+    /* width: 100%;
+    border-collapse: collapse;
+    margin: 10px;
+    box-sizing: border-box;
+    margin-right: 10px; */
+    width: calc(100% - 20px); /* Subtract the left and right margin from the width */
+    border-collapse: collapse;
+    margin: 10px;
+  }
+  
+  .th, .td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #81afc6;
+    color: white;
+  }

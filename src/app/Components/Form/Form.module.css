@@ -1,0 +1,48 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  justify-items: center;
+  padding: 10px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.input {
+  margin-top: 5px;
+  width: 200px;  
+}
+
+.button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    align-self: center;
+}
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0.5;
+    padding-top: 15px;
+  }
+  
+.button:hover {
+  background-color: #0069D9;
+  color: white;
+}
