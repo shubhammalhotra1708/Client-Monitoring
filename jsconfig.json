@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      // "@Services/Actions/Comment": ["src/app/Services/Actions/addForm.ts"] // Add this line
     }
   }
 }
